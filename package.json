@@ -1,0 +1,50 @@
+{
+  "name": "magento-automated-testing",
+  "version": "1.0.0",
+  "description": "Simple and beginner-friendly automation testing framework for Magento using WebdriverIO and Cucumber",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "// ------------------- Basic Test Commands -------------------": "",
+    "test": "wdio run ./wdio.conf.js",
+    "test:single": "wdio run ./wdio.conf.js --spec",
+    "test:shopping": "wdio run ./wdio.conf.js --spec ./features/shoppingCart.feature",
+    "test:search": "wdio run ./wdio.conf.js --spec ./features/productSearch.feature",
+    "// ------------------- Reporting Commands -------------------": "",
+    "report": "allure generate --clean ./allure-results && allure open",
+    "clean:reports": "rm -rf ./allure-results",
+    "// ------------------- Helper Commands -------------------": "",
+    "help": "echo 'Available commands: npm test (run all tests), npm run test:shopping (run only shopping cart tests), npm run test:search (run only product search tests), npm run report (generate test report)'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "automation",
+    "magento",
+    "e2e",
+    "testing"
+  ],
+  "author": "Beginner Tester",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/register": "^7.25.9",
+    "@wdio/allure-reporter": "^7.26.0",
+    "@wdio/cli": "^7.26.0",
+    "@wdio/cucumber-framework": "^7.26.0",
+    "@wdio/local-runner": "^7.26.0",
+    "@wdio/spec-reporter": "^7.26.0",
+    "allure-commandline": "^2.27.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wdio-chromedriver-service": "^7.3.2",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "dependencies": {
+    "chromedriver": "^133.0.0"
+  }
+}

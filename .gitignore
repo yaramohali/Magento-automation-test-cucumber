@@ -1,0 +1,23 @@
+# Files to be pushed in second commit
+HOW_TO_RUN.md
+README.md
+CRITICAL_USE_CASES.md
+
+# Node.js dependencies
+node_modules/
+
+# Test reports and logs
+allure-results/
+logs/
+reports/
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
