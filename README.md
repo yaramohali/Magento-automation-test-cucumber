@@ -46,11 +46,12 @@ We test the Magento demo site at [https://magento.softwaretestingboard.com](http
 
 This project includes Allure Report integration to visualize test execution results. 
 Allure Report Features:
+
    1- Displays passed, failed, and skipped test cases.
    2- Provides execution history.
    3- Shows detailed test logs, screenshots, and duration.
 
-to Generate test reports Run: 
+To generate test reports, Run: 
 
    ```
    npm run report
