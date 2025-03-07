@@ -41,10 +41,27 @@ We test the Magento demo site at [https://magento.softwaretestingboard.com](http
    npx wdio run wdio.conf.js --spec ./features/shoppingCart.feature   # Run only shopping cart tests
    ```
 
-5. **Generate test reports**
+
+## Allure Test Report 
+
+This project includes Allure Report integration to visualize test execution results. 
+Allure Report Features:
+   1- Displays passed, failed, and skipped test cases.
+   2- Provides execution history.
+   3- Shows detailed test logs, screenshots, and duration.
+
+to Generate test reports Run: 
+
    ```
    npm run report
    ```
+   
+| Allure Report Overview |
+|:---:|
+| ![Allure Report Screenshot](https://github.com/user-attachments/assets/d6c6530f-6bce-4e39-b108-66e0288b06fa) |
+| *Test Execution Results Dashboard* |
+  
+
 
 ## 📂 Framework Structure Explained
 

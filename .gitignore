@@ -1,14 +1,6 @@
 # Node.js dependencies
 node_modules/
 
-# Test reports and logs
-allure-results/
-logs/
-reports/
-
-# Environment variables
-.env
-
 # IDE files
 .idea/
 .vscode/
