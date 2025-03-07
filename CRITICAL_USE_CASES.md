@@ -62,47 +62,6 @@ Use cases were selected based on:
 - Order confirmation
 - Verify order in account
 
-### 5. Product Comparison
-
-**Importance**: Aids in customer decision-making
-**Business Impact**: Improves conversion rates
-**Test Scenarios**:
-- Add products to comparison list
-- View comparison page
-- Remove products from comparison
-- Add compared product to cart
-
-### 6. Wish List Functionality
-
-**Importance**: Enhances user engagement
-**Business Impact**: Increases return visits and potential sales
-**Test Scenarios**:
-- Add products to wish list
-- Remove products from wish list
-- Share wish list
-- Move items from wish list to cart
-
-### 7. Customer Account Management
-
-**Importance**: Important for customer retention
-**Business Impact**: Affects customer loyalty and repeat purchases
-**Test Scenarios**:
-- Access order history
-- Add/edit addresses
-- View saved payment methods
-- Manage newsletter subscriptions
-- Update account information
-
-### 8. Site Performance
-
-**Importance**: Critical for user experience
-**Business Impact**: Affects bounce rate, user satisfaction, and SEO
-**Test Scenarios**:
-- Page load times for different sections
-- Response times for key actions
-- Site behavior during peak load
-- Mobile performance testing
-
 ## Out of Scope
 
 The following areas are explicitly out of scope for the initial automation:
